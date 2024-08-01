@@ -1,4 +1,4 @@
-# Custom URL Protocol
+# urlprotocol
 
 A Node.js library to handle custom URL protocols and route them to specific API paths.
 
@@ -7,7 +7,7 @@ A Node.js library to handle custom URL protocols and route them to specific API 
 To install the package, use npm:
 
 ```bash
-npm install custom-url-protocol
+npm install urlprotocol
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ The library allows you to define custom URL protocols and route them to specific
 Create a file named `test.js` and add the following code:
 
 ```javascript
-const CustomProtocolHandler = require('custom-url-protocol');
+const CustomProtocolHandler = require('urlprotocol');
 
 const protocolHandler = new CustomProtocolHandler('hello');
 
@@ -51,7 +51,7 @@ In this example, when the URL `hello://alertmessage` is called, it will respond 
 Here's a complete example of how to use the library:
 
 ```javascript
-const CustomProtocolHandler = require('custom-url-protocol');
+const CustomProtocolHandler = require('urlprotocol');
 
 const protocolHandler = new CustomProtocolHandler('hello');
 
