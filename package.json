@@ -1,0 +1,24 @@
+{
+  "name": "urlprotocol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "keywords": [
+    "custom",
+    "url",
+    "protocol",
+    "nodejs",
+    "api",
+    "routing",
+    "handler",
+    "library",
+    "schemes",
+    "http",
+    "server"
+  ],
+  "author": "Melih Deniz Kayalar",
+  "license": "MIT",
+  "description": "A minimalistic library to handle custom URL protocols in Node.js"
+}
